@@ -3,8 +3,11 @@
 ```lua
 --lazy
     return{
-    "Pair-of-dice/Alienocean.nvim"
-    "Pair-of-dice/Alienocean-lualine" --lualine theme
+    "Pair-of-dice/Alienocean.nvim",
+    --Lualine theme needs to be a dependency for init function to work
+	dependencies = {
+		"Pair-of-dice/Alienocean-lualine", --lualine theme
+	},
     }
 ```
 
@@ -13,7 +16,10 @@
 return
 {
   "Pair-of-dice/Alienocean.nvim",
-  "Pair-of-dice/Alienocean-lualine" --lualine theme
+    --Lualine theme needs to be a dependency for init function to work
+  dependencies = {
+    "Pair-of-dice/Alienocean-lualine", --lualine theme
+  },
   lazy = false,
   priority = 1000,
   opts = {
@@ -31,11 +37,10 @@ return
 
 ## Preview
 
-
 ## Special thanks
 
 This is what this colourscheme is based on and what taught me how to do this.
-<a href="https://github.com/xero/evangelion.nvim">Evangelion colourscheme</a> 
+<a href="https://github.com/xero/evangelion.nvim">Evangelion colourscheme</a>
 Helped with providing the palette.
 <a href="https://github.com/LunarVim/colorgen-nvim">colorgen-nvim</a>
 
