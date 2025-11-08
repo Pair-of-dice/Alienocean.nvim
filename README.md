@@ -3,8 +3,8 @@
 ```lua
 --lazy
     return{
-    "ParadiseOfMagic/Alienocean.nvim"
-    "ParadiseOfMagic/Alienocean-lualine" --lualine theme
+    "Pair-of-dice/Alienocean.nvim"
+    "Pair-of-dice/Alienocean-lualine" --lualine theme
     }
 ```
 
