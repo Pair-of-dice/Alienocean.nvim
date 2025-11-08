@@ -237,7 +237,7 @@ Highlights.build = function()
 		MasonHighlightBlock = { link = "LazyH2" },
 		LazyLocal = {},
 		LazyNoCond = {},
-		LazyNormal = { bg = Colours.purple },
+		LazyNormal = { bg = Colours.bgdark },
 		MasonNormal = { link = "LazyNormal" },
 		LazyProgressDone = {},
 		LazyProgressTodo = {},
