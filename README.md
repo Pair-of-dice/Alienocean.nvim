@@ -41,4 +41,4 @@ Helped with providing the palette.
 
 # Alacritty colourscheme
 
-<a href="placeholder">Matching Alacritty colourscheme</a>
+<a href="https://codeberg.org/ParadiseOfMagic/Alienocean-alacritty">Matching Alacritty colourscheme</a>
