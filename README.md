@@ -35,8 +35,6 @@ return
 }
 ```
 
-## Preview
-
 ## Special thanks
 
 This is what this colourscheme is based on and what taught me how to do this.
