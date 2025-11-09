@@ -1,4 +1,7 @@
-# How to install this theme
+# About this theme
+This dark Neovim theme uses 9 colours and is based on the Evangelion colourscheme, so it has support for FZF,Blink,Cmp,Lazy and Mason.
+All colours can be seen in <a href="lua/Alienocean/palette.lua">palette.lua</a>.
+## How to install this theme
 
 ```lua
 --lazy with lualine theme included
