@@ -1,10 +1,10 @@
 # How to install this theme
 
 ```lua
---lazy
+--lazy with lualine theme included
     return{
     "Pair-of-dice/Alienocean.nvim",
-    --Lualine theme needs to be a dependency for init function to work
+    --Lualine theme can also be put in a separate file and not as a dependency
 	dependencies = {
 		"Pair-of-dice/Alienocean-lualine", --lualine theme
 	},
@@ -12,11 +12,11 @@
 ```
 
 ```lua
---lazy with configuration
+--lazy with configuration and lualine theme
 return
 {
   "Pair-of-dice/Alienocean.nvim",
-    --Lualine theme needs to be a dependency for init function to work
+  --Lualine theme can also be put in a separate file and not as a dependency
   dependencies = {
     "Pair-of-dice/Alienocean-lualine", --lualine theme
   },
@@ -44,6 +44,7 @@ This is what this colourscheme is based on and what taught me how to do this.
 Helped with providing the palette.
 <a href="https://github.com/LunarVim/colorgen-nvim">colorgen-nvim</a>
 
-# Alacritty colourscheme
+## Other versions of this colourscheme
 
 <a href="https://codeberg.org/ParadiseOfMagic/Alienocean-alacritty">Matching Alacritty colourscheme</a>
+<a href="https://codeberg.org/ParadiseOfMagic/Alienocean-lualine">Lualine theme</a>
