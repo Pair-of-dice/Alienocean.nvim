@@ -288,7 +288,7 @@ Highlights.build = function()
 		MasonError = {},
 		MasonHeader = { fg = Colours.green, bg = Colours.bgdark },
 		MasonHeading = {},
-		MasonHighlight = { fg = Colours.green, bg = Colours.purple },
+		MasonHighlight = { fg = Colours.green, bg = Colours.bgdark },
 		MasonMutedBlockBold = { link = "MasonHighlight" },
 		MasonHighlightBlockBoldSecondary = {},
 		MasonHighlightBlockSecondary = {},
